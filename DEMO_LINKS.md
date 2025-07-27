@@ -28,7 +28,7 @@
 |---------|--------|------|-----|
 | 🔴 Redis | ✅ Running | 6379 | localhost:6379 |
 | 🔧 Backend API | ✅ Running | 12000 | work-1-dggeamiqbmqoxchl.prod-runtime.all-hands.dev |
-| 🎨 Frontend | ✅ Running | 12001 | work-2-dggeamiqbmqoxchl.prod-runtime.all-hands.dev |
+| 🎨 Frontend | ✅ Running | 3000 | work-2-dggeamiqbmqoxchl.prod-runtime.all-hands.dev |
 
 ## 🔑 TÍNH NĂNG ĐÃ SẴN SÀNG
 
