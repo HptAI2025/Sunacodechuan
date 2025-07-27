@@ -11,6 +11,7 @@ from pathlib import Path
 
 # API Keys - Thay thế bằng keys thật của bạn
 API_KEYS = {
+    'ENCRYPTION_KEY': 'Wg9QjA-8IwjWutsgFjoW5tgf77UiHELTEvppzCEgmhc=',
     # Supabase (Required)
     "SUPABASE_URL": "https://hrgtaavhrqyjgeniqkjh.supabase.co",
     "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhyZ3RhYXZocnF5amdlbmlxa2poIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM2MTA3NDIsImV4cCI6MjA2OTE4Njc0Mn0.hymH7D9YvSBCoMmbPWLvYaowHj1R2ARoIfOlmMkj-2o",
@@ -83,6 +84,8 @@ NGROK_AUTHTOKEN={API_KEYS['NGROK_AUTHTOKEN']}
 
 # Redis
 REDIS_URL=redis://localhost:6379
+REDIS_HOST=localhost
+REDIS_PORT=6379
 """
     
     with open(".env", "w") as f:
