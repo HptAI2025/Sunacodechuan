@@ -2,14 +2,23 @@
 
 ## 🎯 TRUY CẬP SUNA
 
-### 🖥️ Frontend (Giao diện chính)
+### 🖥️ Frontend (Giao diện chính) - LINK CHÍNH
 **🔗 https://work-2-dggeamiqbmqoxchl.prod-runtime.all-hands.dev**
 
-### 🔧 Backend API 
+### 🔧 Backend API (Thông tin kỹ thuật)
 **🔗 https://work-1-dggeamiqbmqoxchl.prod-runtime.all-hands.dev**
 
 ### 📚 API Documentation
 **🔗 https://work-1-dggeamiqbmqoxchl.prod-runtime.all-hands.dev/docs**
+
+---
+
+## ⚠️ HƯỚNG DẪN TRUY CẬP
+
+**👉 Để sử dụng Suna, hãy click vào link Frontend (work-2) ở trên!**
+
+- Link **work-1** = Backend API (chỉ để xem thông tin kỹ thuật)
+- Link **work-2** = Frontend UI (giao diện chính để sử dụng)
 
 ---
 

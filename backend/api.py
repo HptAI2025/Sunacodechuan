@@ -194,6 +194,17 @@ api_router.include_router(pipedream_api.router)
 from admin import api as admin_api
 api_router.include_router(admin_api.router)
 
+@api_router.get("/")
+async def root():
+    """Root endpoint - redirects to frontend"""
+    return {
+        "message": "Suna Backend API", 
+        "version": "1.0.0",
+        "frontend_url": "https://work-2-dggeamiqbmqoxchl.prod-runtime.all-hands.dev",
+        "docs": "/docs",
+        "health": "/health"
+    }
+
 @api_router.get("/health")
 async def health_check():
     logger.info("Health check endpoint called")
@@ -223,6 +234,18 @@ async def health_check():
         logger.error(f"Failed health docker check: {e}")
         raise HTTPException(status_code=500, detail="Health check failed")
 
+
+# Add root route directly to app
+@app.get("/")
+async def app_root():
+    """Root endpoint - redirects to frontend"""
+    return {
+        "message": "Suna Backend API", 
+        "version": "1.0.0",
+        "frontend_url": "https://work-2-dggeamiqbmqoxchl.prod-runtime.all-hands.dev",
+        "docs": "/docs",
+        "health": "/api/health"
+    }
 
 app.include_router(api_router, prefix="/api")
 
